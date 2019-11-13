@@ -1,0 +1,17 @@
+{
+  "name": "edinnova-stress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "puppeteer": "^2.0.0",
+    "screenres": "^2.0.1"
+  }
+}
