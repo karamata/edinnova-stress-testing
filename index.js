@@ -119,6 +119,8 @@ const startBrowser = async email => {
       document.querySelector('.modal-dialog.wizard-dialog button.btn:nth-child(1)').click();
     });
   } catch (error) {
+    page.close();
+    browser.close();
     return [];
   }
 
